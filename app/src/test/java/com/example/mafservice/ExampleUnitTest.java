@@ -1,4 +1,4 @@
-package com.example.msecureafservice;
+package com.example.mafservice;
 
 import org.junit.Test;
 

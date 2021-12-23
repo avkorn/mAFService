@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">mSecureAFService</string>
+    <string name="app_name">mAFService</string>
+    <string name="settings_set_service">Set default Autofill service</string>
+    <string name="settings_autofill_disabled_message">Autofill service has been disabled.</string>
+    <string name="settings_autofill_service_set">Sample service set to default.</string>
+    <string name="settings_autofill_service_not_set">Sample service not set to default.</string>
 </resources>
