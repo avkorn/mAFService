@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.mafservice"
-        minSdk 21
+        minSdk 28
         targetSdk 30
         versionCode 2
         versionName "1.0"
