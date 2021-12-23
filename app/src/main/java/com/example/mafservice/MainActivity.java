@@ -100,21 +100,13 @@ public class MainActivity extends AppCompatActivity {
     @RequiresApi(api = Build.VERSION_CODES.O)
     private void onDefaultServiceSet(int resultCode) {
         logd(TAG, "resultCode=%d", resultCode);
-//        switch (resultCode) {
-//            case RESULT_OK:
         boolean isEnabled = mAutofillManager.hasEnabledAutofillServices();
         if (isEnabled) {
             showMessage("Autofill service set.");
         } else {
             switchView.setChecked(false);
             showMessage("Another Autofill service was selected.");
-//                    //switchView.setChecked(false);
-
         }
-//                break;
-//            case RESULT_CANCELED:
-//                break;
-//        }
     }
 
     void showMessage(String message) {
